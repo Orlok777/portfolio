@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Joseph Malet</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    
+    <script src="https://kit.fontawesome.com/a7895dc36d.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+
+    <header>
+        <nav class="container">
+            <ul class="nav-links">
+                <li><a href="#hero">Accueil</a></li>
+                <li><a href="#profil">Profil</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#skills">Compétences</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero" style="min-height: 100vh; display: flex; align-items: center; padding-top: 80px;">
+        <div class="container" style="display: flex; align-items: center; justify-content: space-between; gap: 40px;">
+            
+            <div style="flex: 1;">
+                <p style="color: var(--primary); font-weight: 700; letter-spacing: 2px;">JOSEPH MALET</p>
+                <h1>La technique au service <br>du <span class="highlight">Développement Web</span></h1>
+                <p style="max-width: 650px; font-size: 1.15rem; color: var(--text-gray); margin-bottom: 25px;">
+                    Étudiant en BUT Informatique issu d'une filière technologique (STI2D).<br>
+                    Je me spécialise dans la conception et le développement d'applications et de sites web performants.
+                </p>
+                
+                <div style="margin-bottom: 30px; display: flex; flex-direction: column; gap: 10px;">
+                    <span style="display:inline-block; background: rgba(59, 130, 246, 0.15); color: var(--primary-light); padding: 8px 15px; border-radius: 4px; border-left: 3px solid var(--primary); width: fit-content;">
+                        📍 Recherche d'Alternance en Développement - Sept. 2026
+                    </span>
+                    <span style="display:inline-block; background: rgba(34, 197, 94, 0.15); color: #4ade80; padding: 8px 15px; border-radius: 4px; border-left: 3px solid #22c55e; width: fit-content;">
+                        🚗 <strong>Permis B & Véhiculé</strong> : Grande mobilité géographique (Non limité à un secteur)
+                    </span>
+                </div>
+
+                <div style="margin-top: 30px;">
+                    <a href="https://github.com/Orlok777" target="_blank" class="btn btn-primary">Voir mes réalisations</a>
+                    <a href="#contact" class="btn btn-outline">Me contacter</a>
+                </div>
+            </div>
+
+            <div style="width: 250px; height: 250px; border-radius: 50%; border: 6px solid var(--text-white); overflow: hidden; box-shadow: 0 10px 25px rgba(0,0,0,0.3); display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+                <img src="moi.png" alt="Photo de Joseph Malet" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+            
+        </div>
+    </section>
+
+    <section id="profil">
+        <div class="container">
+            <h2>Mon Projet Professionnel</h2>
+            <div class="grid">
+                <div style="grid-column: span 2; max-width: 800px;">
+                    <p style="font-size: 1.1rem; color: var(--text-gray);">
+                        Passionné par l'innovation et le code, j'ai construit mon parcours sur une base technique solide (Bac STI2D puis BUT Informatique).
+                        <br><br>
+                        Mon objectif est de devenir <strong>Développeur Web</strong>. Je souhaite mettre à profit mes compétences en programmation pour concevoir des applications web performantes, intuitives et adaptées aux besoins de vos équipes et clients. Mon background technique me permet de comprendre et de traduire les besoins fonctionnels en solutions techniques.
+                    </p>
+                </div>
+                
+                <div class="card" style="border-left: 4px solid var(--primary); grid-column: span 1;">
+                    <h3 class="highlight">Formation</h3>
+                    
+                    <div style="margin-bottom: 15px;">
+                        <p style="color: white; font-weight: bold; margin-bottom: 2px;">BUT Informatique</p>
+                        <p style="font-size: 0.85rem; color: var(--text-gray); margin-bottom: 10px;">Université Gustave Eiffel (En cours)</p>
+                        <a href="releve_notes_Semestre1_JosephM.pdf" target="_blank" class="btn btn-outline" style="padding: 6px 12px; font-size: 0.8rem; border-width: 1px;">
+                            <i class="fa-solid fa-file-pdf" style="margin-right: 6px;"></i> Voir le relevé de notes
+                        </a>
+                    </div>
+
+                    <div>
+                        <p style="color: white; font-weight: bold; margin-bottom: 2px;">Bac Technologique STI2D</p>
+                        <p style="font-size: 0.85rem; color: var(--text-gray);">Sciences et Technologies de l'Industrie et du Développement Durable</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Réalisations</h2>
+            
+            <div class="grid">
+                <div class="card">
+                    <h3>Gestion Hospitalière</h3>
+                    <p style="color: var(--text-gray); margin: 15px 0;">
+                        Projet pédagogique : création d'une application web reliée à une base de données PostgreSQL, dédiée à la gestion sécurisée des biens des patients lors de leur admission à l'hôpital.
+                    </p>
+                    <div class="tag-container">
+                        <span class="tag">PHP / SQL</span>
+                        <span class="tag">PostgreSQL</span>
+                        <span class="tag">Projet Pédagogique</span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3>Jeu Vidéo "Labyrinthe"</h3>
+                    <p style="color: var(--text-gray); margin: 15px 0;">
+                        Développement d'un jeu complet en équipe (Python). Le joueur incarne un chevalier devant éliminer des dragons. Ce projet a renforcé ma logique et ma capacité à travailler en mode projet.
+                    </p>
+                    <a href="https://github.com/speedaru/sae_prog1" target="_blank" class="btn btn-outline" style="text-align: center; margin-bottom: 15px; width: fit-content;">
+                        <i class="fa-brands fa-github" style="margin-right: 8px;"></i> Voir sur GitHub
+                    </a>
+                    <div class="tag-container">
+                        <span class="tag">Python</span>
+                        <span class="tag">Travail d'équipe</span>
+                        <span class="tag">Gestion de projet</span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3>Site Web "Taj Mahal"</h3>
+                    <p style="color: var(--text-gray); margin: 15px 0;">
+                        Conception d'un site vitrine interactif. Travail approfondi sur la présentation de l'information pour la rendre attrayante et accessible aux visiteurs.
+                    </p>
+                    <div class="tag-container">
+                        <span class="tag">HTML / CSS</span>
+                        <span class="tag">Communication Visuelle</span>
+                        <span class="tag">UX Design</span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3>Site Web "Pharmacie"</h3>
+                    <p style="color: var(--text-gray); margin: 15px 0;">
+                        Conception et développement d'un site vitrine sur mesure pour une pharmacie locale.
+                    </p>
+                    <a href="./pharmacie/site%20pharmacie/index.html" class="btn btn-outline" style="text-align: center; margin-bottom: 15px; width: fit-content;">Voir le site</a>
+                    <div class="tag-container">
+                        <span class="tag">HTML / CSS</span>
+                        <span class="tag">Projet Web</span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3>Revente de cartes Pokémon</h3>
+                    <p style="color: var(--text-gray); margin: 15px 0;">
+                        Gestion d'une activité financière indépendante en ligne. Optimisation des ventes, suivi des tendances du marché, gestion de la logistique d'envoi et relation client.
+                    </p>
+                    <a href="https://www.vinted.fr/member/34331718" target="_blank" class="btn btn-outline" style="text-align: center; margin-bottom: 15px; width: fit-content;">
+                        <i class="fa-solid fa-shop" style="margin-right: 8px;"></i> Boutique Vinted
+                    </a>
+                    <div class="tag-container">
+                        <span class="tag">E-commerce</span>
+                        <span class="tag">Gestion</span>
+                        <span class="tag">Autonomie</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2>Mes Atouts</h2>
+            <div class="grid">
+                
+                <div class="card">
+                    <h3 class="highlight"><i class="fa-solid fa-code"></i> Développement Technique</h3>
+                    <ul style="list-style: none; margin-top: 20px; color: var(--text-gray);">
+                        <li style="margin-bottom:10px;"><strong>Développement</strong> : Python, PHP, SQL, HTML, CSS, JavaScript.</li>
+                        <li style="margin-bottom:10px;"><strong>Logique Technique</strong> : Esprit d'analyse issu de la filière STI2D et du BUT.</li>
+                        <li><strong>Web</strong> : Culture numérique et architecture web.</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3 class="highlight"><i class="fa-solid fa-handshake"></i> Collaboration & Soft Skills</h3>
+                    <ul style="list-style: none; margin-top: 20px; color: var(--text-gray);">
+                        <li style="margin-bottom:10px;"><strong>Mobilité & Disponibilité</strong> : Titulaire du Permis B, prêt à couvrir un large secteur.</li>
+                        <li style="margin-bottom:10px;"><strong>Travail en équipe & Agilité</strong> : Expérience de collaboration sur projets (Labyrinthe), résolution de problèmes.</li>
+                        <li><strong>Communication technique</strong> : Capacité à vulgariser les concepts techniques et comprendre les besoins utilisateurs.</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" style="background: rgba(0,0,0,0.3); padding: 60px 0; text-align: center; border-top: 1px solid rgba(255,255,255,0.05);">
+        <div class="container">
+            <h2 style="border:none; margin-bottom: 20px;">Prêt à échanger ?</h2>
+            <p style="color: var(--text-gray); max-width: 500px; margin: 0 auto 30px;">
+                Je recherche activement une alternance en développement pour Septembre 2026. 
+                Mobile et motivé, je suis disponible pour échanger sur vos besoins.
+            </p>
+            
+            <div style="margin-bottom: 30px;">
+                <a href="mailto:josephmalet42@gmail.com" class="btn btn-primary" style="font-size: 1.1rem;">
+                    <i class="fa-solid fa-envelope" style="margin-right: 10px;"></i> josephmalet42@gmail.com
+                </a>
+            </div>
+
+            <div>
+                <a href="https://www.linkedin.com/in/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            
+            <p style="margin-top: 40px; font-size: 0.8rem; color: #475569;">
+                &copy; 2026 - Joseph Malet - Tous droits réservés
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>

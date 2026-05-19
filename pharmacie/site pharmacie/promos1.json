@@ -1,0 +1,219 @@
+[
+    {
+        "nom": "Berocca Energie 30cp",
+        "image": "promos/beroca_energie_30cp.png",
+        "prixAncien": 15.90,
+        "prixNouveau": 10.99,
+        "tags": "berocca energie fatigue vitamine forme"
+    },
+    {
+        "nom": "Berocca Magnésium",
+        "image": "promos/berroca_magnesium.png",
+        "prixAncien": null,
+        "prixNouveau": 13.99,
+        "tags": "berocca magnesium fatigue stress"
+    },
+    {
+        "nom": "Huile Prodigieuse Nuxe",
+        "image": "promos/huile_prodigieuse_nuxe.png",
+        "prixAncien": 26.90,
+        "prixNouveau": 16.14,
+        "tags": "nuxe huile prodigieuse corps visage cheveux"
+    },
+    {
+        "nom": "Coffret Nuxe Infiniment Glow",
+        "image": "promos/infiniment_glow_en_rose_nuxe.png",
+        "prixAncien": null,
+        "prixNouveau": 34.60,
+        "tags": "nuxe coffret cadeau glow rose"
+    },
+    {
+        "nom": "Coffret Nuxe Les Iconiques",
+        "image": "promos/les_iconiques_nuxe.png",
+        "prixAncien": null,
+        "prixNouveau": 26.95,
+        "tags": "nuxe coffret iconique cadeau"
+    },
+    {
+        "nom": "Trousse Nuxe Golden Crush",
+        "image": "promos/my_golden_crush_nuxe.png",
+        "prixAncien": null,
+        "prixNouveau": 23.95,
+        "tags": "nuxe trousse golden crush voyage"
+    },
+    {
+        "nom": "Trousse Nuxe Pink Crush",
+        "image": "promos/my_pink_crush_trousse_nuxe.png",
+        "prixAncien": null,
+        "prixNouveau": 23.95,
+        "tags": "nuxe trousse pink crush voyage"
+    },
+    {
+        "nom": "Listerine Fraîcheur Intense",
+        "image": "promos/listerine_fraicheur_intense.png",
+        "prixAncien": 4.20,
+        "prixNouveau": 3.99,
+        "tags": "listerine bain bouche fraicheur intense dents"
+    },
+    {
+        "nom": "Listerine Fraîcheur Goût Léger",
+        "image": "promos/listerine_fraicheur_leger.png",
+        "prixAncien": 4.20,
+        "prixNouveau": 3.99,
+        "tags": "listerine bain bouche fraicheur leger dents"
+    },
+    {
+        "nom": "Listerine Total Care Protection",
+        "image": "promos/listerine_total_care.png",
+        "prixAncien": 4.20,
+        "prixNouveau": 3.99,
+        "tags": "listerine total care protection dents"
+    },
+    {
+        "nom": "Listerine Total Care Goût Léger",
+        "image": "promos/listerine_total_care_leger.png",
+        "prixAncien": 4.20,
+        "prixNouveau": 3.99,
+        "tags": "listerine total care leger dents"
+    },
+    {
+        "nom": "Listerine Total Care Violet",
+        "image": "promos/listerine_total_care_leger_violet.png",
+        "prixAncien": 4.20,
+        "prixNouveau": 3.99,
+        "tags": "listerine total care violet dents"
+    },
+    {
+        "nom": "Coffret MKL Mare Sauvage",
+        "image": "promos/mare_sauvage_mkl.png",
+        "prixAncien": null,
+        "prixNouveau": 8.90,
+        "tags": "mkl coffret mare sauvage homme"
+    },
+    {
+        "nom": "Coffret MKL Miel Gourmand",
+        "image": "promos/miel_gourmand_mkl.png",
+        "prixAncien": null,
+        "prixNouveau": 11.90,
+        "tags": "mkl coffret miel gourmand"
+    },
+    {
+        "nom": "Coffret MKL Perle de Coco",
+        "image": "promos/perle_de_coco_mkl.png",
+        "prixAncien": null,
+        "prixNouveau": 11.90,
+        "tags": "mkl coffret perle coco"
+    },
+    {
+        "nom": "Laino Nutri Olive Corps",
+        "image": "promos/nutri_olive_laino.png",
+        "prixAncien": null,
+        "prixNouveau": 11.90,
+        "tags": "laino olive corps hydratation"
+    },
+    {
+        "nom": "Nuxe Men Baume Après-Rasage",
+        "image": "promos/nuxe_men_baume_apres_rasage.png",
+        "prixAncien": 24.90,
+        "prixNouveau": 14.94,
+        "tags": "nuxe men homme baume rasage"
+    },
+    {
+        "nom": "Nuxe Men Déodorant 24H",
+        "image": "promos/nuxe_men_deodorant.png",
+        "prixAncien": 9.90,
+        "prixNouveau": 5.94,
+        "tags": "nuxe men homme deodorant"
+    },
+    {
+        "nom": "Nuxe Men Gel de Rasage",
+        "image": "promos/nuxe_men_gel_rasant.png",
+        "prixAncien": 12.90,
+        "prixNouveau": 7.74,
+        "tags": "nuxe men homme gel rasage"
+    },
+    {
+        "nom": "Nuxe Nuxuriance Ultra",
+        "image": "promos/nuxe_nuxuriance_ultra.png",
+        "prixAncien": 57.50,
+        "prixNouveau": 34.50,
+        "tags": "nuxe nuxuriance ultra anti age"
+    },
+    {
+        "nom": "Nuxe Prodigieuse Boost Crème",
+        "image": "promos/nuxe_prodigieuse_boost.png",
+        "prixAncien": 32.90,
+        "prixNouveau": 19.74,
+        "tags": "nuxe prodigieuse boost creme eclat"
+    },
+    {
+        "nom": "Nuxe Prodigieuse Boost Baume",
+        "image": "promos/nuxe_prodigieuse_boost_baume.png",
+        "prixAncien": 35.90,
+        "prixNouveau": 21.54,
+        "tags": "nuxe prodigieuse boost baume nuit"
+    },
+    {
+        "nom": "Coffret Nuxe Rituel d'Exception",
+        "image": "promos/rituel_dexception_nuxe.png",
+        "prixAncien": null,
+        "prixNouveau": 19.50,
+        "tags": "nuxe coffret rituel exception cadeau"
+    },
+    {
+        "nom": "Oscillo Immunité 60cp",
+        "image": "promos/oscillo_promo.png",
+        "prixAncien": 14.50,
+        "prixNouveau": 12.50,
+        "tags": "oscillo boiron immunite hiver grippe"
+    },
+    {
+        "nom": "Oscillo Immunité Enfant",
+        "image": "promos/oscillo_immunite_3ans.png",
+        "prixAncien": 14.50,
+        "prixNouveau": 12.50,
+        "tags": "oscillo boiron immunite enfant hiver"
+    },
+    {
+        "nom": "Oscillo Vitalité Enfant",
+        "image": "promos/oscillo_vitalite_3ans.png",
+        "prixAncien": 13.50,
+        "prixNouveau": 11.50,
+        "tags": "oscillo boiron vitalite enfant fatigue"
+    },
+    {
+        "nom": "Oscillo Vitalité Adulte",
+        "image": "promos/oscillo_vitalite_multi_actif.png",
+        "prixAncien": 14.50,
+        "prixNouveau": 12.50,
+        "tags": "oscillo boiron vitalite adulte fatigue"
+    },
+    {
+        "nom": "Physiodose Sérum Physio",
+        "image": "promos/physiodose.png",
+        "prixAncien": null,
+        "prixNouveau": 3.50,
+        "tags": "physiodose serum physiologique bebe nez"
+    },
+    {
+        "nom": "Lingettes Bébé WaterWipes",
+        "image": "promos/waterwipes.png",
+        "prixAncien": null,
+        "prixNouveau": 9.99,
+        "tags": "waterwipes lingettes bebe change"
+    },
+    {
+        "nom": "Coffret Avène Densité",
+        "image": "promos/soins_experts_densite.png",
+        "prixAncien": 76.90,
+        "prixNouveau": 69.90,
+        "tags": "avene coffret densite visage anti age"
+    },
+    {
+        "nom": "Coffret Avène Fermeté",
+        "image": "promos/soins_experts_fermete.png",
+        "prixAncien": 51.90,
+        "prixNouveau": 44.90,
+        "tags": "avene coffret fermete visage anti age"
+    }
+]
