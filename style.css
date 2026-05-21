@@ -232,3 +232,59 @@ footer a i:hover {
         text-align: center;
     }
 }
+
+/* --- TIMELINE PARCOURS --- */
+.timeline {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+/* La ligne verticale */
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 3px;
+    background-color: rgba(16, 185, 129, 0.3);
+    top: 0;
+    bottom: 0;
+    left: 20px;
+    margin-left: -1.5px;
+    border-radius: 2px;
+}
+
+.timeline-item {
+    padding: 10px 0 30px 50px;
+    position: relative;
+}
+
+/* Les points sur la ligne */
+.timeline-dot {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background-color: var(--text-gray);
+    border: 3px solid var(--bg-dark);
+    border-radius: 50%;
+    left: 20px;
+    top: 15px;
+    margin-left: -8px;
+    z-index: 1;
+    transition: var(--transition);
+}
+
+.timeline-dot.highlight-dot {
+    background-color: var(--primary);
+    box-shadow: 0 0 10px rgba(16, 185, 129, 0.5);
+}
+
+.timeline-item:hover .timeline-dot {
+    transform: scale(1.3);
+}
+
+/* Ajustement des cartes dans la timeline */
+.timeline-content {
+    margin-top: 0;
+    padding: 20px;
+}
